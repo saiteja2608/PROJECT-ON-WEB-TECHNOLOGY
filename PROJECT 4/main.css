@@ -1,0 +1,208 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Ubuntu",sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+#nav{
+    /* border: 2px solid; */
+    height: 80px;
+    background-color: #363638;
+}
+#sub-nav{
+    /*border: 2px solid rebeccapurple;*/
+    height: inherit;
+    width: 97%;
+    margin: auto;
+
+}
+#sub-nav img{
+    height: 36px;
+    margin-top: 20px;
+}
+#x svg{
+    height: 1.3em;
+    display: inline-block;
+    vertical-align: text-top;
+    position: absolute;
+    top: 30px;
+    margin-left: 30px;
+     /* fill:#454647; */
+    fill: #ebebeb;
+
+}
+#messnger svg{
+    height: 1.3em;
+    display: inline-block;
+    vertical-align: text-top;
+    position: absolute;
+    top: 30px;
+    margin-left: 90px;
+    /* fill: #454647;  */
+    fill: #ebebeb;
+}
+p{
+    /* border: 2px solid blue; */
+    position: absolute;
+    width: 29%;
+    left: 1070px; 
+    top: 30px;
+    font-size: 21px;
+    word-spacing: 25px;
+    color: #fff;
+}
+#background{
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+     /* border: 2px solid black;  */
+    height: 600px;
+    background-color: #454647;
+}
+#content{
+    /* border: 2px solid red; */
+    height: inherit;
+    width: 60%;
+    /* margin: auto; */
+     position: absolute;
+     top: 80px;
+     left: 300px;
+}
+#content h1{
+    font-weight: 400;
+    color: #ebebeb;
+    margin-top: 40px;
+    font-size: 48px;
+    letter-spacing: .41px;
+}
+#content h2{
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: .2px;
+     margin-top: 60px;
+    color: #ebebeb;
+}
+#search-box input{
+    margin-top: 60px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    text-indent: 20px;
+    font-weight: 300;
+    /* background-color: #454647; */
+    color: #ebebeb;
+    height: 50px;
+     width: 100%;
+}
+#search-box span svg{
+      height: 50px;
+      position: absolute;
+      left: 885px;
+      top: 355px;
+       height: 100px;
+}
+#banner{
+    /* border: 2px solid red; */
+    height: 35px;
+    width: 100%;
+    background-color: #d9643a;;
+    position: absolute;
+    top: 680px;
+}
+#banner h4{
+    font-family: "Ubuntu",sans-serif;
+    display: inline-block;
+    font-weight: 200;
+    /* border-right: 2px solid #141515; */
+    font-size: 18px;
+    line-height: 1.3;
+    margin: 0 8px 0 0;
+    padding: 0 8px 0 0;
+}
+#banner h4+h4{
+    font-family: "Ubuntu",sans-serif;
+    display: inline-block;
+    font-weight: 400;
+    /* border-right: 2px solid #141515; */
+    font-size: 17px;
+    line-height: 1.3;
+    margin: 0 8px 0 0;
+    padding: 0 8px 0 0;
+}
+#banner h4+h4 svg{
+    height: 1em;
+    margin-top: 8px;
+
+}
+#foot{
+    /* border: 2px solid red; */
+    height: 270px;
+    margin-top: 635px;
+    background-color: #1f1f21;
+    color: #ebebeb;
+    /* word-spacing: 2px; */
+    font-weight: 100;
+    /* position: absolute; */
+    /* top: 180px; */
+
+}
+#sub-foot img{
+    height: 55px;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: #a6a6a6;
+    display: inline-block;
+     
+}
+#copy{
+     position: absolute;
+     left: 46px;
+     top: 825px;
+}
+
+#icon1 svg{
+   height: 1.4em;
+   display: inline-block;
+   margin-left: 170px;
+   margin-top: 19px;
+   fill: #a6a6a6
+   
+}
+#icon2 svg{
+    height: 1.4em;
+    display: inline-block;
+    /* margin-left: 0px; */
+    margin-top: 19px;
+    fill: #a6a6a6
+ }
+
+.titel{
+    color: #a6a6a6;
+    font-size: 15px;
+     font-weight: 200;
+    text-transform: uppercase;
+}
+dl{
+ position: absolute;
+ font-weight: 200;
+ top: 740px;
+ left: 450px;
+ /* word-spacing: 5px; */
+}
+#foot2{
+    position: absolute;
+    font-weight: 200;
+    top: 740px;
+    left: 800px;
+    /* word-spacing: 10px; */
+   }
+   #foot3{
+    position: absolute;
+    font-weight: 200;
+    top: 740px;
+    left: 1200px;
+    /* word-spacing: 10px; */
+   }
