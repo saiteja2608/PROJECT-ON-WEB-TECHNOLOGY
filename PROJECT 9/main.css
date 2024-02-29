@@ -1,0 +1,385 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+nav{
+    /* border: 2px solid; */
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav span img{
+    height: 100px;
+    margin-left: 80px;
+}
+
+nav ol{
+    list-style: none;
+    display: flex;
+    justify-content: space-between; 
+    width: 500px;
+    align-items: center;
+    font-size: 11px; 
+    font-weight: bold;
+    font-family: "Source Sans Pro",sans-serif; 
+    letter-spacing: 2px;
+    margin-right: 80px;
+}
+
+nav ol li:hover{
+    cursor: pointer;
+    color: gray;
+}
+
+nav ol li:first-child{
+    color: lightgray;
+}
+
+#section-1{
+    /* border: 2px solid; */
+    height: 600px;
+    background-image: url(./images/Ray+Romano+Loft+renovation+nyc+brooklyn+hamptons+luxury+construction\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#section-1-div{
+    color: #171717;
+    position: relative;
+    left: 100px;
+    top: 100px;
+    display: inline-block;
+}
+
+#section-1-div h1{
+    /* border: 2px solid; */
+    height: 70px;
+    width: 680px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1em;
+    font-style: normal;
+    font-family: "Source Sans Pro",sans-serif;
+    background-color: rgba(255,255,255,.6);
+    padding-left: 30px;
+    padding-top: 15px;
+    letter-spacing: 2px;
+}
+
+#section-1-div p{
+    /* border: 2px solid; */
+    height: 80px;
+    width: 850px;
+    font-size: 19px;
+    background-color: rgba(255,255,255,.6);
+    padding: 20px;
+}
+
+#sec-2{
+    height: 230px;
+}
+
+#sec-2-div{
+    /* border: 2px solid; */
+    margin-top: 90px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+#sec-2-div h2{
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+#sec-2-div p{
+    font-size: 18px;
+}
+
+#sec-3{
+    /* border: 2px solid; */
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(./images/Ray+Romano+Contracting+combination+renovation+luxury+contemporary+Upper+East+Side+NYC+Hamptons+Brooklyn+NJ.jpg);
+}
+
+#sec-3-div{
+    /* border: 2px solid; */
+    display: inline-block;
+    height: 100px;
+    width: 860px;
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Source Sans Pro",sans-serif;
+    position: relative;
+    left: 100px;
+    margin-top: 90px;
+    padding-left: 20px;
+    padding-top: 10px;
+    background-color: rgba(255,255,255,.6);
+}
+
+#sec-4{
+    height: 300px;
+}
+
+#sec-4-div{
+    /* border: 2px solid; */
+    margin-top: 100px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+#sec-4-div h2{
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-family: "Source Sans Pro",sans-serif;
+    position: relative;
+}
+
+#sec-4-div p{
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Source Sans Pro",sans-serif;
+    position: relative;
+}
+
+#sec-5{
+    /* border: 2px solid; */
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(./images/Ray+Romano+Hamptons+Sag+Harbor+renovation.jpg);
+}
+
+#sec-5-div{
+    /* border: 2px solid; */
+    display: inline-block;
+    height: 80px;
+    width: 280px;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Source Sans Pro",sans-serif;
+    letter-spacing: 6px;
+    position: relative;
+    padding-left: 20px;
+    padding-top: 20px;
+    left: 100px;
+    margin-top: 90px;
+    background-color: rgba(255,255,255,.6);
+}
+
+#sec-6{
+    height: 280px;
+    /* border: 2px solid; */
+}
+
+#sec-6-div{
+    /* border: 2px solid; */
+    margin-top: 100px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+#sec-6-div h2{
+    /* letter-spacing: 2px; */
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-family: "Source Sans Pro",sans-serif;
+    position: relative;
+}
+
+#sec-6-div p{
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Source Sans Pro",sans-serif;
+    position: relative;
+}
+
+#sec-7{
+    /* border: 2px solid; */
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(./images/Sag+Harbor+Renovation.jpeg);
+}
+
+#sec-7-div{
+    /* border: 2px solid; */
+    display: inline-block;
+    height: 80px;
+    width: 400px;
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Source Sans Pro",sans-serif;
+    letter-spacing: 6px;
+    position: relative;
+    padding-left: 20px;
+    padding-top: 20px;
+    left: 100px;
+    margin-top: 90px;
+    background-color: rgba(255,255,255,.6);
+}
+
+#sec-8{
+    height: 330px;
+    /* border: 2px solid; */
+}
+
+#sec-8-div{
+    /* border: 2px solid; */
+    margin-top: 100px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+#sec-8-div h2{
+    /* letter-spacing: 2px; */
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-family: "Source Sans Pro",sans-serif;
+    position: relative;
+}
+
+#sec-8-div p{
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Source Sans Pro",sans-serif;
+    position: relative;
+}
+
+#sec-9{
+    /* border: 2px solid; */
+    height: 680px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(./images/Custom+Closet+Ray+Rompano+Contracting+NYC+Brooklyn+Upper+east+Side+NYC+renovation.jpg);
+}
+
+#sec-9-div{
+    /* border: 2px solid; */
+    display: inline-block;
+    height: 80px;
+    width: 250px;
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Source Sans Pro",sans-serif;
+    letter-spacing: 6px;
+    position: relative;
+    padding-left: 20px;
+    padding-top: 20px;
+    left: 100px;
+    margin-top: 90px;
+    background-color: rgba(255,255,255,.6);
+}
+
+#sec-10{
+    /* border: 2px solid; */
+    height: 1000px;
+}
+
+#div-1{
+    background-image: url(./images/Sag+Harbor+Renovation.jpeg);
+    background-size: cover;
+    height: 200px;
+    width: 300px;
+    margin-top: 100px;   
+}
+
+#div-2{
+    background-image: url(./images/image-asset\ \(2\).jpeg);
+    background-size: cover;
+    height: 200px;
+    width: 300px;
+    margin-top: 100px;  
+    margin-left: 30px;
+}
+
+#div-3{
+    background-image: url(./images/DSC01938.JPG);
+    background-size: cover;
+    height: 200px;
+    width: 300px;
+    margin-top: 100px; 
+    margin-left: 30px; 
+}
+
+#div-4{
+    background-image: url(./images/image-asset\ \(3\).jpeg);
+    background-size: cover;
+    height: 200px;
+    width: 300px;
+    margin-top: 50px;  
+}
+
+#div-5{
+    background-image: url(./images/image-asset\ \(1\).jpeg);
+    background-size: cover;
+    height: 200px;
+    width: 300px;
+    margin-top: 50px; 
+    margin-left: 30px;  
+}
+
+#div-6{
+    background-image: url(./images/image-asset.jpeg);
+    background-size: cover;
+    height: 200px;
+    width: 300px; 
+    margin-top: 50px;
+    margin-left: 30px;  
+}
+
+#div-7{
+    background-image: url(./images/DSC01988+2.JPG);
+    background-size: cover;
+    height: 200px;
+    width: 300px;
+    margin-top: 50px;   
+}
+
+#sec-10-div{
+    flex-wrap: wrap;
+    align-content: center;
+    display: flex;
+    margin-left: 280px;
+    margin-right: 150px;
+}
+
+#div-2+p{
+    margin-left: 30px;
+}
+
+#div-3+p{
+    margin-left: 30px;
+}
+
+#div-5+p{
+    margin-left: 30px;
+}
+
+#div-6+p{
+    margin-left: 30px;
+}
